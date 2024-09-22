@@ -1,0 +1,335 @@
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+"TC_AP_001 Verify that ""Organization Management"" has sub-modules",Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_001.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_001""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Verify Function button is visible,verify - visible,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Verify Function Role button is visible,verify - visible,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function Role""]"
+,Verify Location button is visible,verify - visible,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Location""]"
+,Verify Employee button is visible,verify - visible,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Employee""]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+"TC_AP_002 Verify that ""Function"" module Page is working",Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_002.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_002""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Verify Function button is clickable,verify - enable,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+"TC_AP_006 Verify the ""Function"" sub-module redirection",Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_006.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_006""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Verify function page is loaded,verify - url,/org-management/function,,,,,,
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+"TC_AP_010 Verify the ""Function"" page details",Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_010.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_010""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Verify Filter and Search section is visible,verify - visible,,,,,locator,,//app-functions//app-model-search
+,Verify Add Function button is visible,verify - visible,,,,,role,button,Add Function
+,Verify Add Attribute button is visible,verify - visible,,,,,role,button,Add Attribute
+,Verify Approval/Rejection button is visible,verify - visible,,,,,role,button,Approval/Rejection
+,Verify Function list is visible,verify - visible,,,,,locator,,"//mat-card/mat-card-subtitle[text()=""Function List""]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_011 Verify the Function List option,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_011.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_011""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Verify Function Code column is visible,verify - visible,,,,,role,columnheader,Function Code
+,Verify Function Name column is visible,verify - visible,,,,,role,columnheader,Function Name
+,Verify Status column is visible,verify - visible,,,,,role,columnheader,Status
+,Verify Action column is visible,verify - visible,,,,,role,columnheader,Action
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_012 Verify the Function Filter & Search option,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_012.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_012""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Verify Function Code field is visible,verify - visible,,,,,locator,,"[placeholder=""Search Function Code""]"
+,Verify Function Name field is visible,verify - visible,,,,,locator,,"[placeholder=""Search Function Name""]"
+,Verify Status field is visible,verify - visible,,,,,locator,,"[id=""mat-select-0""]"
+,Verify Clear Filter button is visible,verify - visible,,,,,role,button,Clear Filter
+,Verify Search button is visible,verify - visible,,,,,role,button,Search
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_013 Verify the Function Code search option is working for vaild inputs,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_013.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_013""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function Code,fill,HR12,,,,locator,,"[placeholder=""Search Function Code""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify Function Code is displayed on Function list ,verify - visible,,,,,role,cell,HR12
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_014 Verify the Function Code search option is working for invaild inputs,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_014.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_014""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function Code,fill,veryrandomfunctioncode123,,,,locator,,"[placeholder=""Search Function Code""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify No Record found message is displayed,verify - visible,,,,,locator,,"//mat-card//div/strong[contains(text(),""No record found"")]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_015 Verify the Function Name search option is working for vaild inputs,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_015.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_015""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function Name,fill,HirirngDept,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify Function Name is displayed on Function list ,verify - visible,,,,,role,cell,HirirngDept
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_016 Verify the Function Name search option is working for invaild inputs,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_016.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_016""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function Name,fill,veryrandomfunctionname123,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify No Record found message is displayed,verify - visible,,,,,locator,,"//mat-card//div/strong[contains(text(),""No record found"")]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_019 Verify the combination search option is working for vaild inputs,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_019.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_019""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function Name,fill,HirirngDept,,,,locator,,"[placeholder=""Search Function Name""]"
+,Enter Function Code,fill,HR12,,,,locator,,"[placeholder=""Search Function Code""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify Function Code is displayed on Function list ,verify - visible,,,,,role,cell,HR12
+,Verify Function Name is displayed on Function list ,verify - visible,,,,,role,cell,HirirngDept
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_020 Verify the combination search option is working for invaild inputs,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_020.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_020""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function Name,fill,veryrandomfunctionname123,,,,locator,,"[placeholder=""Search Function Name""]"
+,Enter Function Code,fill,veryrandomfunctioncode123,,,,locator,,"[placeholder=""Search Function Code""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify No Record found message is displayed,verify - visible,,,,,locator,,"//mat-card//div/strong[contains(text(),""No record found"")]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_021 Verify the Function Clear filter button option,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_021.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_021""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function Name,fill,veryrandomfunctionname123,,,,locator,,"[placeholder=""Search Function Name""]"
+,Enter Function Code,fill,veryrandomfunctioncode123,,,,locator,,"[placeholder=""Search Function Code""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify No Record found message is displayed,verify - visible,,,,,locator,,"//mat-card//div/strong[contains(text(),""No record found"")]"
+,Click Clear Filter button,click,,,,,role,button,Clear Filter
+,Verify No Record found message is hidden,verify - hidden,,,,,locator,,"//mat-card//div/strong[contains(text(),""No record found"")]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_022 Verify the Function Search button option,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_022.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_022""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function Name,fill,HirirngDept,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify Function Name is displayed on Function list ,verify - visible,,,,,role,cell,HirirngDept
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_023 Verify the Function Status search option is Active,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_023.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_023""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Click Status dropdown,click,,,,,locator,,"[id=""mat-select-0""]"
+,Click Active option,click,,,,,role,option,Active
+,Verify Active status is displayed on Function list ,verify - visible,,,,,role,cell,Active
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_024 Verify the Function Status search option is Active,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_024.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_024""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Click Status dropdown,click,,,,,locator,,"[id=""mat-select-0""]"
+,Click Inactive option,click,,,,,role,option,Inactive
+,Verify Inactive status is displayed on Function list ,verify - visible,,,,,role,cell,Inactive
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_025 Verify the function page action column delete button is working.,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_025.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_025""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Click Add Function button,click,,,,,role,button,Add Function
+,Enter Function code,fill,TESTAUTO01,,,,locator,,"[name=""code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[name=""name""]"
+,Click Add button,click,,,,,role,button,Add
+,Enter Function code,fill,TESTAUTO01,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Click Delete action,click,,,,,locator,,"[ng-reflect-message=""Delete""]"
+,Confirm delete,click,,,,,role,button,Ok
+,Enter Function code,fill,TESTAUTO01,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify No Record found message is hidden,verify - hidden,,,,,locator,,"//mat-card//div/strong[contains(text(),""No record found"")]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_026 Verify the function page action column view button is working.,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_026.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_026""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function code,fill,HR12,,,,locator,,"[placeholder=""Search Function Code""]"
+,Click Search button,click,,,,,role,button,Search
+,Click View Action,click,,,,,locator,,"[ng-reflect-message=""View""]"
+,Verify function details is displayed,verify - visible,,,,,locator,,//app-function-detail
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_027 Verify the function view page,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_027.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_027""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function code,fill,HR12,,,,locator,,"[placeholder=""Search Function Code""]"
+,Click Search button,click,,,,,role,button,Search
+,Click View Action,click,,,,,locator,,"[ng-reflect-message=""View""]"
+,Verify Delete button is displayed,verify - visible,,,,,role,button,Delete
+,Verify Edit button is displayed,verify - visible,,,,,role,button,Edit
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_028 Verify the edit data is populated.,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_028.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_028""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Enter Function code,fill,HR12,,,,locator,,"[placeholder=""Search Function Code""]"
+,Click Search button,click,,,,,role,button,Search
+,Click Edit Action,click,,,,,locator,,"[ng-reflect-message=""Edit""]"
+,Verify Function name value,verify - value,HirirngDept,,,,locator,,"[ng-reflect-name=""name""]"
+,Verify Description value,verify - value,test,,,,locator,,"[ng-reflect-name=""description""]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_029 Verify the function view page edit or delete,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_029.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_029""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Click Add Function button,click,,,,,role,button,Add Function
+,Enter Function code,fill,TESTAUTO02,,,,locator,,"[name=""code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[name=""name""]"
+,Click Add button,click,,,,,role,button,Add
+,Enter Function code,fill,TESTAUTO02,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Click View Action,click,,,,,locator,,"[ng-reflect-message=""View""]"
+,Click Edit button,click,,,,,role,button,Edit
+,Enter Function name,fill,Test Automation Edit Test,,,,locator,,"[ng-reflect-name=""name""]"
+,Enter Description value,fill,Edit test description field,,,,locator,,"[ng-reflect-name=""description""]"
+,Click Update button,click,,,,,role,button,Update
+,Enter Function code,fill,TESTAUTO02,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation Edit Test,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Click View Action,click,,,,,locator,,"[ng-reflect-message=""View""]"
+,Click Delete button,click,,,,,role,button,Delete
+,Confirm delete,click,,,,,role,button,Ok
+,Enter Function code,fill,TESTAUTO02,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation Edit Test,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify No Record found message is hidden,verify - hidden,,,,,locator,,"//mat-card//div/strong[contains(text(),""No record found"")]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_030 Verify the function page action column edit button is working.,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_030.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_030""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Click Add Function button,click,,,,,role,button,Add Function
+,Enter Function code,fill,TESTAUTO03,,,,locator,,"[name=""code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[name=""name""]"
+,Click Add button,click,,,,,role,button,Add
+,Enter Function code,fill,TESTAUTO03,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Click Edit Action,click,,,,,locator,,"[ng-reflect-message=""Edit""]"
+,Enter Function name,fill,Test Automation Edit Test,,,,locator,,"[ng-reflect-name=""name""]"
+,Enter Description value,fill,Edit test description field,,,,locator,,"[ng-reflect-name=""description""]"
+,Click Update button,click,,,,,role,button,Update
+,Enter Function code,fill,TESTAUTO03,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation Edit Test,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify Function Code is displayed on Function list ,verify - visible,,,,,role,cell,TESTAUTO03
+,Verify Function Name is displayed on Function list ,verify - visible,,,,,role,cell,Test Automation Edit Test
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_031 Verify the function data saved for valid data,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_031.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_031""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Click Add Function button,click,,,,,role,button,Add Function
+,Enter Function code,fill,TESTAUTO04,,,,locator,,"[name=""code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[name=""name""]"
+,Click Add button,click,,,,,role,button,Add
+,Enter Function code,fill,TESTAUTO04,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify Function Code is displayed on Function list ,verify - visible,,,,,role,cell,TESTAUTO04
+,Verify Function Name is displayed on Function list ,verify - visible,,,,,role,cell,Test Automation
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_033 Verify the delete function code data and re-use same,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_033.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_033""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Click Add Function button,click,,,,,role,button,Add Function
+,Enter Function code,fill,TESTAUTO05,,,,locator,,"[name=""code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[name=""name""]"
+,Click Add button,click,,,,,role,button,Add
+,Enter Function code,fill,TESTAUTO05,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Click Delete action,click,,,,,locator,,"[ng-reflect-message=""Delete""]"
+,Confirm delete,click,,,,,role,button,Ok
+,Enter Function code,fill,TESTAUTO05,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify No Record found message is hidden,verify - hidden,,,,,locator,,"//mat-card//div/strong[contains(text(),""No record found"")]"
+,Click Add Function button,click,,,,,role,button,Add Function
+,Enter Function code,fill,TESTAUTO05,,,,locator,,"[name=""code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[name=""name""]"
+,Click Add button,click,,,,,role,button,Add
+,Enter Function code,fill,TESTAUTO05,,,,locator,,"[placeholder=""Search Function Code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[placeholder=""Search Function Name""]"
+,Click Search button,click,,,,,role,button,Search
+,Verify Function Code is displayed on Function list ,verify - visible,,,,,role,cell,TESTAUTO05
+,Verify Function Name is displayed on Function list ,verify - visible,,,,,role,cell,Test Automation
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_034 Verify the user create data with existing function code,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_034.spec.ts,"""@regression_web"", ""@organization_management"", ""@function"", ""@TC_AP_034""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Click Add Function button,click,,,,,role,button,Add Function
+,Enter Function code,fill,TESTAUTO06,,,,locator,,"[name=""code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[name=""name""]"
+,Click Add button,click,,,,,role,button,Add
+,Click Add Function button,click,,,,,role,button,Add Function
+,Enter Function code,fill,TESTAUTO06,,,,locator,,"[name=""code""]"
+,Enter Function name,fill,Test Automation,,,,locator,,"[name=""name""]"
+,Click Add button,click,,,,,role,button,Add
+,Verify error message is displayed,verify - visible,,,,,locator,,"//snack-bar-container//simple-snack-bar/span[contains(text(),""Resource already Exist"")]"

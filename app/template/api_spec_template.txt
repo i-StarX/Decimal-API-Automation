@@ -1,0 +1,16 @@
+import { test, expect, } from '@playwright/test';
+
+test('TC_NAME', { tag: [TAG] }, async ({ request }) => {
+
+    PARAMETER
+    await request.fetch(`API_URL`, {
+        method: "REQUEST_TYPE",
+        HEADERS
+        DATA
+    }).then((apiResponse) => {
+        expect(apiResponse.ok()).toBeTruthy();
+        expect(apiResponse.status().toString()).toBe('200');
+        RESPONSE_BODY
+    });
+
+});

@@ -1,0 +1,2984 @@
+TC Reference,Request Type,API URL,Response code,Headers,Authetication Bearer token,Parameter,Request body,Response body,Test Spec file name,Parent Folder Name,Tag
+getFunction,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-function"",
+module_2: ""get""
+}",,,"{
+""code"": ""PhD""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-04-09"",
+                                ""ineffectiveDate"": ""2025-07-24"",
+                                ""status"": false,
+                                ""createdBy"": ""sandeep.kumar@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-04-05T09:26:22.349+05:30"",
+                                ""modifiedBy"": ""harshdeep.s@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-06-05T18:52:19.561+05:30"",
+                                ""approvalRemarks"": ""IMPORT"",
+                                ""approvalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-06-05T18:52:19.561+05:30"",
+                                ""recordId"": ""4552d02c-8443-48cd-a20e-22d74a525e13"",
+                                ""isDelete"": false,
+                                ""attributes"": """",
+                                ""udfVal1"": """",
+                                ""udfLbl1"": """",
+                                ""udfVal2"": """",
+                                ""udfLbl2"": """",
+                                ""udfVal3"": """",
+                                ""udfLbl3"": """",
+                                ""udfVal4"": """",
+                                ""udfLbl4"": """",
+                                ""udfVal5"": """",
+                                ""udfLbl5"": """",
+                                ""udfVal6"": """",
+                                ""udfLbl6"": """",
+                                ""udfVal7"": """",
+                                ""udfLbl7"": """",
+                                ""udfVal8"": """",
+                                ""udfLbl8"": """",
+                                ""udfVal9"": """",
+                                ""udfLbl9"": """",
+                                ""udfVal10"": """",
+                                ""udfLbl10"": """",
+                                ""code"": ""PhD"",
+                                ""name"": ""Electronics"",
+                                ""type"": """",
+                                ""headEmpId"": """",
+                                ""sortSeq"": 0,
+                                ""internalFlag"": false,
+                                ""description"": ""Test check""
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getFunction.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createFunction,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-function"",
+module_2: ""create""
+}",,,"{
+    ""code"": ""hey"",
+    ""name"": ""RTTEST"",
+    ""status"": ""true"",
+    ""description"": ""         "",
+    ""sortSequence"": ""1"",
+    ""createdBy"": ""Rashmi"",
+    ""createdTimestamp"": "" "",
+    ""modifiedBy"": ""Rashmi"",
+    ""modifiedTimestamp"": "" "",
+    ""approvalBy"": "" "",
+    ""approvalRemarks"": "" "",
+    ""approvalStatus"": "" "",
+    ""effectiveDate"": ""2024-09-06"",
+    ""ineffectiveDate"": ""2025-07-24"",
+    ""recordId"": "" "",
+    ""typeCode"": {
+        ""code"": """",
+        ""value"": """",
+        ""CODE"": """",
+        ""VALUE"": """"
+    },
+    ""headEmpId"": """",
+    ""udfLbl1"": """",
+    ""udfVal1"": """",
+    ""udfLbl2"": """",
+    ""udfVal2"": """",
+    ""udfLbl3"": """",
+    ""udfVal3"": """",
+    ""udfLbl4"": """",
+    ""udfVal4"": """",
+    ""udfLbl5"": """",
+    ""udfVal5"": """",
+    ""udfLbl6"": """",
+    ""udfVal6"": """",
+    ""udfLbl7"": """",
+    ""udfVal7"": """",
+    ""udfLbl8"": """",
+    ""udfVal8"": """",
+    ""udfLbl9"": """",
+    ""udfVal9"": """",
+    ""udfLbl10"": """",
+    ""udfVal10"": """"
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createFunction.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateFunction,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-function"",
+module_2: ""update""
+}",,,"{
+    ""code"": ""Hey"",
+    ""name"": ""RTTEST"",
+    ""status"": """",
+    ""description"": ""updatebyRT"",
+    ""sortSequence"": ""100"",
+    ""createdBy"": ""Rashmi"",
+    ""createdTimestamp"": "" "",
+    ""modifiedBy"": ""Rashmi"",
+    ""modifiedTimestamp"": "" "",
+    ""approvalBy"": "" "",
+    ""approvalRemarks"": "" "",
+    ""approvalStatus"": "" "",
+    ""effectiveDate"": ""2024-09-06"",
+    ""ineffectiveDate"": ""2025-07-24"",
+    ""recordId"": "" "",
+    ""typeCode"": {
+        ""code"": ""tripti mehtaaa"",
+        ""value"": ""mehta"",
+        ""CODE"": ""tripti mehtaaa"",
+        ""VALUE"": ""mehta""
+    },
+    ""headEmpId"": """",
+    ""udfLbl1"": """",
+    ""udfVal1"": """",
+    ""udfLbl2"": """",
+    ""udfVal2"": """",
+    ""udfLbl3"": """",
+    ""udfVal3"": """",
+    ""udfLbl4"": """",
+    ""udfVal4"": """",
+    ""udfLbl5"": """",
+    ""udfVal5"": """",
+    ""udfLbl6"": """",
+    ""udfVal6"": """",
+    ""udfLbl7"": """",
+    ""udfVal7"": """",
+    ""udfLbl8"": """",
+    ""udfVal8"": """",
+    ""udfLbl9"": """",
+    ""udfVal9"": """",
+    ""udfLbl10"": """",
+    ""udfVal10"": """"
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateFunction.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteFunction,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-function"",
+module_2: ""delete""
+}",,,"{
+    ""code"":""rashmi""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Resource deleted for - rashmi""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteFunction.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getFunctionRole,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-function-role"",
+module_2: ""get""
+}",,,"{
+     ""code"":""TESTQ11""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-03-06"",
+                                ""ineffectiveDate"": ""2034-03-06"",
+                                ""status"": true,
+                                ""createdBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-03-06T13:15:54.437"",
+                                ""modifiedBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-09-06T15:34:44.054"",
+                                ""approvalRemarks"": ""By Super Admin"",
+                                ""approvalBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-09-06T15:34:44.052"",
+                                ""recordId"": ""9845ea15-23d3-423c-80db-3e42a3f52cce"",
+                                ""executionAttribute"": null,
+                                ""udfVal1"": """",
+                                ""udfLbl1"": """",
+                                ""udfVal2"": """",
+                                ""udfLbl2"": """",
+                                ""udfVal3"": """",
+                                ""udfLbl3"": """",
+                                ""udfVal4"": """",
+                                ""udfLbl4"": """",
+                                ""udfVal5"": """",
+                                ""udfLbl5"": """",
+                                ""udfVal6"": """",
+                                ""udfLbl6"": """",
+                                ""udfVal7"": """",
+                                ""udfLbl7"": """",
+                                ""udfVal8"": """",
+                                ""udfLbl8"": """",
+                                ""udfVal9"": """",
+                                ""udfLbl9"": """",
+                                ""udfVal10"": """",
+                                ""udfLbl10"": """",
+                                ""functionCode"": ""ELECTRICAL"",
+                                ""name"": ""Property holderA"",
+                                ""code"": ""TESTQ11"",
+                                ""parentRoleCode"": """",
+                                ""defaultSystemRoleCode"": """",
+                                ""sortSeq"": 0,
+                                ""internalFlag"": false,
+                                ""description"": """",
+                                ""attributes"": ""[{\""key\"":\""Test test\"",\""value\"":\""GAH\""}]""
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getFunctionRole.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createFunctionRole,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-function-role"",
+module_2: ""create""
+}",,,"{
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-05T06:34:04.000Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": """",
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": """",
+    ""effectiveDate"": ""2024-09-14"",
+    ""ineffectiveDate"": ""2026-03-05"",
+    ""recordId"": """",
+    ""udfLbl1"": """",
+    ""udfVal1"": """",
+    ""udfLbl2"": """",
+    ""udfVal2"": """",
+    ""udfLbl3"": """",
+    ""udfVal3"": """",
+    ""udfLbl4"": """",
+    ""udfVal4"": """",
+    ""udfLbl5"": """",
+    ""udfVal5"": """",
+    ""udfLbl6"": """",
+    ""udfVal6"": """",
+    ""udfLbl7"": """",
+    ""udfVal7"": """",
+    ""udfLbl8"": """",
+    ""udfVal8"": """",
+    ""udfLbl9"": """",
+    ""udfVal9"": """",
+    ""udfLbl10"": """",
+    ""udfVal10"": """",
+    ""code"": ""HIRASH"",
+    ""name"": ""Hi Rashmi"",
+    ""status"": true,
+    ""description"": ""Testing Rashmi"",
+    ""functionCode"": ""ELECTRICAL"",
+    ""parentRoleCode"": """",
+    ""defaultSystemRoleCode"": """",
+    ""sortSequence"": """",
+    ""attributes"": ""[{\""key\"":\""lest test\"",\""value\"":\""\""}]"",
+    ""effectiveDateSaved"": ""2024-09-14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createFunctionRole.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateFunctionRole,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-function-role"",
+module_2: ""update""
+}",,,"{
+    ""effectiveDate"": ""2024-03-06"",
+    ""ineffectiveDate"": ""2034-03-06"",
+    ""status"": true,
+    ""createdBy"": ""aman.aggarwal@decimal.co.in"",
+    ""createdTimestamp"": ""2024-03-06T13:15:54.437"",
+    ""modifiedBy"": ""aman.aggarwal@decimal.co.in"",
+    ""modifiedTimestamp"": ""2024-03-06T13:15:54.437"",
+    ""approvalRemarks"": ""By Super Admin"",
+    ""approvalBy"": ""aman.aggarwal@decimal.co.in"",
+    ""approvalStatus"": ""APPROVED"",
+    ""finalApprovalBy"": ""aman.aggarwal@decimal.co.in"",
+    ""approvalTimestamp"": ""2024-03-06T13:15:54.408"",
+    ""recordId"": ""8d5e5c36-750e-422d-ae82-5848dc280d63"",
+    ""executionAttribute"": null,
+    ""udfVal1"": """",
+    ""udfLbl1"": """",
+    ""udfVal2"": """",
+    ""udfLbl2"": """",
+    ""udfVal3"": """",
+    ""udfLbl3"": """",
+    ""udfVal4"": """",
+    ""udfLbl4"": """",
+    ""udfVal5"": """",
+    ""udfLbl5"": """",
+    ""udfVal6"": """",
+    ""udfLbl6"": """",
+    ""udfVal7"": """",
+    ""udfLbl7"": """",
+    ""udfVal8"": """",
+    ""udfLbl8"": """",
+    ""udfVal9"": """",
+    ""udfLbl9"": """",
+    ""udfVal10"": """",
+    ""udfLbl10"": """",
+    ""functionCode"": ""Bart83"",
+    ""name"": ""Property holderA"",
+    ""code"": ""TESTQ11"",
+    ""parentRoleCode"": """",
+    ""defaultSystemRoleCode"": """",
+    ""sortSeq"": 0,
+    ""internalFlag"": false,
+    ""description"": """",
+    ""attributes"": ""[{\""key\"":\""Test test\"",\""value\"":\""GAH\""}]"",
+    ""effectiveTill"": true,
+    ""effectiveDateSaved"": ""2024-03-06""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateFunctionRole.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteFunctionRole,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-function-role"",
+module_2: ""delete""
+}",,,"{
+    ""code"":""TEST1010""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Resource deleted for - TEST1010""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteFunctionRole.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getLocation,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-location"",
+module_2: ""get""
+}",,,"{
+    ""code"": ""ALM01""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-03-12"",
+                                ""ineffectiveDate"": ""2025-03-11"",
+                                ""status"": false,
+                                ""createdBy"": ""sandeep.kumar@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-03-11T17:20:57.199+05:30"",
+                                ""modifiedBy"": ""harshdeep.s@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-06-05T18:52:57.068+05:30"",
+                                ""approvalRemarks"": ""IMPORT"",
+                                ""approvalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-06-05T18:52:57.068+05:30"",
+                                ""recordId"": ""a0c1f863-e2af-440d-b25e-c5eceb022cba"",
+                                ""isDelete"": false,
+                                ""attributes"": ""[{\""key\"":\""ddd\"",\""value\"":\""\""},{\""key\"":\""werw\"",\""value\"":\""\""},{\""key\"":\""Zone Name\"",\""value\"":\""\""},{\""key\"":\""Village Name\"",\""value\"":\""\""}]"",
+                                ""udfVal1"": """",
+                                ""udfLbl1"": """",
+                                ""udfVal2"": """",
+                                ""udfLbl2"": """",
+                                ""udfVal3"": """",
+                                ""udfLbl3"": """",
+                                ""udfVal4"": """",
+                                ""udfLbl4"": """",
+                                ""udfVal5"": """",
+                                ""udfLbl5"": """",
+                                ""udfVal6"": """",
+                                ""udfLbl6"": """",
+                                ""udfVal7"": """",
+                                ""udfLbl7"": """",
+                                ""udfVal8"": """",
+                                ""udfLbl8"": """",
+                                ""udfVal9"": """",
+                                ""udfLbl9"": """",
+                                ""udfVal10"": """",
+                                ""udfLbl10"": """",
+                                ""code"": ""ALM01"",
+                                ""name"": ""Property holder"",
+                                ""type"": ""uyg"",
+                                ""subtype"": ""te"",
+                                ""parentLocationCode"": """",
+                                ""headEmpCode"": """",
+                                ""hierarchyId"": ""ALM01"",
+                                ""sortSeq"": 0,
+                                ""internalFlag"": false,
+                                ""addressLine1"": ""bvb"",
+                                ""addressLine2"": ""street chexk"",
+                                ""addressLine3"": ""collete"",
+                                ""city"": ""NEW"",
+                                ""state"": ""DELHI"",
+                                ""pincode"": ""123263"",
+                                ""country"": ""I"",
+                                ""description"": ""A while back I needed to count"",
+                                ""latitude"": """",
+                                ""longitude"": """"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getLocation.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createLocation,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-location"",
+module_2: ""create""
+}",,,"{
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-08T12:13:11.802Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": """",
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": """",
+    ""effectiveDate"": ""2024-03-12"",
+    ""ineffectiveDate"": ""2025-03-11"",
+    ""recordId"": """",
+    ""udfLbl1"": """",
+    ""udfVal1"": """",
+    ""udfLbl2"": """",
+    ""udfVal2"": """",
+    ""udfLbl3"": """",
+    ""udfVal3"": """",
+    ""udfLbl4"": """",
+    ""udfVal4"": """",
+    ""udfLbl5"": """",
+    ""udfVal5"": """",
+    ""udfLbl6"": """",
+    ""udfVal6"": """",
+    ""udfLbl7"": """",
+    ""udfVal7"": """",
+    ""udfLbl8"": """",
+    ""udfVal8"": """",
+    ""udfLbl9"": """",
+    ""udfVal9"": """",
+    ""udfLbl10"": """",
+    ""udfVal10"": """",
+    ""addressLine1"": ""bvb"",
+    ""addressLine2"": ""street chexk"",
+    ""addressLine3"": ""collete"",
+    ""city"": ""Sydney"",
+    ""code"": ""SYD"",
+    ""country"": ""I"",
+    ""description"": ""A while back I needed to count  there should be a character limit of about 30–50 character"",
+    ""finalApprovalBy"": """",
+    ""pincode"": ""123263"",
+    ""state"": ""DELHI"",
+    ""stateDesc"": """",
+    ""districtDesc"": ""effe"",
+    ""status"": true,
+    ""name"": ""Property holder"",
+    ""type"": ""uyg"",
+    ""subtype"": ""te"",
+    ""parentLocationCode"": """",
+    ""headEmpCode"": """",
+    ""hierarchyId"": """",
+    ""sortSequence"": """",
+    ""internalFlag"": """",
+    ""attributes"": ""[{\""key\"":\""ddd\"",\""value\"":\""\""},{\""key\"":\""werw\"",\""value\"":\""\""},{\""key\"":\""Zone Name\"",\""value\"":\""\""},{\""key\"":\""Village Name\"",\""value\"":\""\""}]"",
+    ""latitude"": """",
+    ""longitude"": """",
+    ""effectiveDateSaved"": ""2024-03-08""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createLocation.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateLocation,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-location"",
+module_2: ""update""
+}",,,"{
+    ""effectiveDate"": ""2024-03-08"",
+    ""ineffectiveDate"": null,
+    ""status"": true,
+    ""createdBy"": ""sandeep.kumar@decimal.co.in"",
+    ""createdTimestamp"": ""2024-03-08T18:17:16.271+05:30"",
+    ""modifiedBy"": ""sandeep.kumar@decimal.co.in"",
+    ""modifiedTimestamp"": ""2024-03-08T18:17:16.271+05:30"",
+    ""approvalRemarks"": ""By Super Admin"",
+    ""approvalBy"": ""sandeep.kumar@decimal.co.in"",
+    ""approvalStatus"": ""APPROVED"",
+    ""finalApprovalBy"": ""sandeep.kumar@decimal.co.in"",
+    ""approvalTimestamp"": ""2024-03-08T18:17:16.267+05:30"",
+    ""recordId"": ""1cc2aad9-f861-48b0-b22d-64bbe3f2446a"",
+    ""isDelete"": false,
+    ""attributes"": ""[{\""key\"":\""ddd\"",\""value\"":\""\""},{\""key\"":\""werw\"",\""value\"":\""\""},{\""key\"":\""Zone Name\"",\""value\"":\""\""},{\""key\"":\""Village Name\"",\""value\"":\""\""}]"",
+    ""udfVal1"": """",
+    ""udfLbl1"": """",
+    ""udfVal2"": """",
+    ""udfLbl2"": """",
+    ""udfVal3"": """",
+    ""udfLbl3"": """",
+    ""udfVal4"": """",
+    ""udfLbl4"": """",
+    ""udfVal5"": """",
+    ""udfLbl5"": """",
+    ""udfVal6"": """",
+    ""udfLbl6"": """",
+    ""udfVal7"": """",
+    ""udfLbl7"": """",
+    ""udfVal8"": """",
+    ""udfLbl8"": """",
+    ""udfVal9"": """",
+    ""udfLbl9"": """",
+    ""udfVal10"": """",
+    ""udfLbl10"": """",
+    ""code"": ""TRDHHhhS"",
+    ""name"": ""Property holder"",
+    ""type"": ""TY"",
+    ""subtype"": ""YT"",
+    ""parentLocationCode"": """",
+    ""headEmpCode"": """",
+    ""hierarchyId"": ""TRDHHhhS"",
+    ""sortSeq"": 0,
+    ""internalFlag"": false,
+    ""addressLine1"": ""village"",
+    ""addressLine2"": ""street chexk"",
+    ""addressLine3"": ""collete"",
+    ""city"": ""NEW"",
+    ""state"": ""DELHI"",
+    ""pincode"": ""123232"",
+    ""country"": ""I"",
+    ""description"": """",
+    ""latitude"": """",
+    ""longitude"": """",
+    ""effectiveDateSaved"": ""2024-03-08""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateLocation.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteLocation,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""org-location"",
+module_2: ""delete""
+}",,,"{
+    ""code"": ""SYD""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Resource deleted for - SYD""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteLocation.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getEmployee,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""employee"",
+module_2: ""get""
+}",,,"{
+    ""code"": ""Test121234""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-03-12"",
+                                ""ineffectiveDate"": ""2034-03-11"",
+                                ""status"": true,
+                                ""createdBy"": ""sandeep.kumar@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-03-11T17:25:58.044+05:30"",
+                                ""modifiedBy"": ""harshdeep.s@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-06-05T18:52:19.027+05:30"",
+                                ""approvalRemarks"": ""IMPORT"",
+                                ""approvalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-06-05T18:52:19.027+05:30"",
+                                ""recordId"": ""9462042e-ee93-4692-bcfd-d0b84ea4bd63"",
+                                ""isDelete"": false,
+                                ""attributes"": ""[{\""key\"":\""CA_CODE\"",\""value\"":\""\""},{\""key\"":\""CA-LOCATION\"",\""value\"":\""\""},{\""key\"":\""A\"",\""value\"":\""\""},{\""key\"":\""test\"",\""value\"":\""\""},{\""key\"":\""CLIENT_LOCATION\"",\""value\"":\""\""}]"",
+                                ""udfVal1"": """",
+                                ""udfLbl1"": """",
+                                ""udfVal2"": """",
+                                ""udfLbl2"": """",
+                                ""udfVal3"": """",
+                                ""udfLbl3"": """",
+                                ""udfVal4"": """",
+                                ""udfLbl4"": """",
+                                ""udfVal5"": """",
+                                ""udfLbl5"": """",
+                                ""udfVal6"": """",
+                                ""udfLbl6"": """",
+                                ""udfVal7"": """",
+                                ""udfLbl7"": """",
+                                ""udfVal8"": """",
+                                ""udfLbl8"": """",
+                                ""udfVal9"": """",
+                                ""udfLbl9"": """",
+                                ""udfVal10"": """",
+                                ""udfLbl10"": """",
+                                ""code"": ""Test121234"",
+                                ""company"": ""NEW"",
+                                ""personId"": """",
+                                ""salutation"": ""MR"",
+                                ""firstName"": ""NEW"",
+                                ""middleName"": """",
+                                ""lastName"": """",
+                                ""officeEmail"": ""new1244@decimal.co.in"",
+                                ""personalEmail"": """",
+                                ""gender"": ""MALE"",
+                                ""dob"": ""2026-03-11"",
+                                ""maritalStatus"": ""SINGLE"",
+                                ""dateOfJoining"": ""2020-03-11"",
+                                ""supervisorEmpId"": """",
+                                ""subCompany"": """",
+                                ""fatherHusbandName"": "" "",
+                                ""division"": """",
+                                ""functionCode"": ""1011"",
+                                ""designationName"": ""NEW"",
+                                ""payrollId"": """",
+                                ""designationLabelId"": """",
+                                ""roleCode"": """",
+                                ""locationCode"": """",
+                                ""employeeVerificationDate"": ""2020-03-11"",
+                                ""lobCode"": """",
+                                ""lob"": """",
+                                ""category"": """",
+                                ""domainLoginId"": """",
+                                ""lastWorkingDate"": ""1001-07-19"",
+                                ""mobileNumber"": ""9898979828"",
+                                ""officeLandline"": """",
+                                ""mobileOffice"": """",
+                                ""source"": """",
+                                ""description"": ""A while back I needed to count "",
+                                ""refSysEmpCode"": """",
+                                ""addressLine1"": """",
+                                ""addressLine2"": """",
+                                ""addressLine3"": """",
+                                ""city"": ""1223"",
+                                ""state"": ""hr"",
+                                ""pincode"": """",
+                                ""country"": ""ind"",
+                                ""latitude"": """",
+                                ""longitude"": """",
+                                ""functionRole"": ""OO7"",
+                                ""systemRole"": """"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getEmployee.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createEmployee,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""employee"",
+module_2: ""create""
+}",,,"{
+    ""createdBy"": """",
+    ""createdTimestamp"": """",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": """",
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": """",
+    ""effectiveDate"": ""2024-03-12"",
+    ""ineffectiveDate"": ""2034-03-11"",
+    ""recordId"": """",
+    ""udfLbl1"": """",
+    ""udfVal1"": """",
+    ""udfLbl2"": """",
+    ""udfVal2"": """",
+    ""udfLbl3"": """",
+    ""udfVal3"": """",
+    ""udfLbl4"": """",
+    ""udfVal4"": """",
+    ""udfLbl5"": """",
+    ""udfVal5"": """",
+    ""udfLbl6"": """",
+    ""udfVal6"": """",
+    ""udfLbl7"": """",
+    ""udfVal7"": """",
+    ""udfLbl8"": """",
+    ""udfVal8"": """",
+    ""udfLbl9"": """",
+    ""udfVal9"": """",
+    ""udfLbl10"": """",
+    ""udfVal10"": """",
+    ""addressLine1"": """",
+    ""addressLine2"": """",
+    ""addressLine3"": """",
+    ""category"": """",
+    ""city"": ""1223"",
+    ""code"": ""RASHTEST14"",
+    ""company"": ""NEW"",
+    ""country"": ""ind"",
+    ""dateOfJoining"": ""2020-03-11"",
+    ""description"": ""A while back I needed to count "",
+    ""designationLabelId"": """",
+    ""designationName"": ""NEW"",
+    ""division"": """",
+    ""dob"": ""2026-03-11"",
+    ""domainLoginId"": """",
+    ""employeeVerificationDate"": ""2020-03-11"",
+    ""fatherHusbandName"": "" "",
+    ""finalApprovalBy"": """",
+    ""firstName"": ""TestRashmi"",
+    ""functionCode"": ""1011"",
+    ""gender"": ""MALE"",
+    ""lastName"": """",
+    ""lastWorkingDate"": ""1000-19-19"",
+    ""latitude"": """",
+    ""lob"": """",
+    ""lobCode"": """",
+    ""locationCode"": """",
+    ""longitude"": """",
+    ""maritalStatus"": ""SINGLE"",
+    ""middleName"": """",
+    ""mobileNumber"": ""9898979828"",
+    ""mobileOffice"": """",
+    ""officeEmail"": ""new1244@decimaltech.co.in"",
+    ""officeLandline"": """",
+    ""payrollId"": """",
+    ""personId"": """",
+    ""personalEmail"": """",
+    ""pincode"": """",
+    ""refSysEmpCode"": """",
+    ""roleCode"": """",
+    ""salutation"": ""MR"",
+    ""source"": """",
+    ""state"": ""hr"",
+    ""status"": true,
+    ""subCompany"": """",
+    ""supervisorEmpId"": """",
+    ""attributes"": ""[{\""key\"":\""CA_CODE\"",\""value\"":\""\""},{\""key\"":\""CA-LOCATION\"",\""value\"":\""\""},{\""key\"":\""A\"",\""value\"":\""\""},{\""key\"":\""test\"",\""value\"":\""\""},{\""key\"":\""CLIENT_LOCATION\"",\""value\"":\""\""}]"",
+    ""effectiveDateSaved"": ""2024-03-11"",
+    ""functionRole"": ""OO7""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",creaatetEmployee.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateEmployee,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""employee"",
+module_2: ""update""
+}",,,"{
+    ""effectiveDate"": ""2024-03-11"",
+    ""ineffectiveDate"": ""2034-03-11"",
+    ""status"": true,
+    ""createdBy"": ""aman.aggarwal@decimal.co.in"",
+    ""createdTimestamp"": ""2024-03-11T15:46:17.362+05:30"",
+    ""modifiedBy"": ""aman.aggarwal@decimal.co.in"",
+    ""modifiedTimestamp"": ""2024-03-11T15:46:17.362+05:30"",
+    ""approvalRemarks"": ""By Super Admin"",
+    ""approvalBy"": ""aman.aggarwal@decimal.co.in"",
+    ""approvalStatus"": ""APPROVED"",
+    ""finalApprovalBy"": ""aman.aggarwal@decimal.co.in"",
+    ""approvalTimestamp"": ""2024-03-11T15:46:17.351+05:30"",
+    ""recordId"": ""d626cfdb-41e0-4839-a164-3670a6d1a4a3"",
+    ""isDelete"": false,
+    ""attributes"": ""[{\""key\"":\""CA_CODE\"",\""value\"":\""\""},{\""key\"":\""CA-LOCATION\"",\""value\"":\""\""},{\""key\"":\""A\"",\""value\"":\""\""},{\""key\"":\""test\"",\""value\"":\""\""},{\""key\"":\""CLIENT_LOCATION\"",\""value\"":\""\""}]"",
+    ""udfVal1"": """",
+    ""udfLbl1"": """",
+    ""udfVal2"": """",
+    ""udfLbl2"": """",
+    ""udfVal3"": """",
+    ""udfLbl3"": """",
+    ""udfVal4"": """",
+    ""udfLbl4"": """",
+    ""udfVal5"": """",
+    ""udfLbl5"": """",
+    ""udfVal6"": """",
+    ""udfLbl6"": """",
+    ""udfVal7"": """",
+    ""udfLbl7"": """",
+    ""udfVal8"": """",
+    ""udfLbl8"": """",
+    ""udfVal9"": """",
+    ""udfLbl9"": """",
+    ""udfVal10"": """",
+    ""udfLbl10"": """",
+    ""code"": ""ABC231"",
+    ""company"": ""ABC Company ashdbhsabdhasbdhba"",
+    ""personId"": """",
+    ""salutation"": ""MR"",
+    ""firstName"": ""MUKESHt"",
+    ""middleName"": ""mukesh"",
+    ""lastName"": ""KUMAR"",
+    ""officeEmail"": ""test6757657@mail.com"",
+    ""personalEmail"": ""sandeep.kumar@decimal.co.in"",
+    ""gender"": ""MALE"",
+    ""dob"": null,
+    ""maritalStatus"": ""SINGLE"",
+    ""dateOfJoining"": ""2024-03-01"",
+    ""supervisorEmpId"": """",
+    ""subCompany"": """",
+    ""fatherHusbandName"": """",
+    ""division"": """",
+    ""functionCode"": ""Annie69"",
+    ""designationName"": ""TEST"",
+    ""payrollId"": """",
+    ""designationLabelId"": """",
+    ""roleCode"": """",
+    ""locationCode"": """",
+    ""employeeVerificationDate"": null,
+    ""lobCode"": """",
+    ""lob"": """",
+    ""category"": """",
+    ""domainLoginId"": """",
+    ""lastWorkingDate"": null,
+    ""mobileNumber"": ""7535988912"",
+    ""officeLandline"": """",
+    ""mobileOffice"": """",
+    ""source"": """",
+    ""description"": """",
+    ""refSysEmpCode"": """",
+    ""addressLine1"": ""yesty qsgdyuagsdh asuvduhas dj"",
+    ""addressLine2"": ""check sadasdasdasdsadasdiljbiu"",
+    ""addressLine3"": ""empty sadbasbdhbashdbashdbhsab"",
+    ""city"": ""NEW"",
+    ""state"": ""DELHI"",
+    ""pincode"": ""110055"",
+    ""country"": ""I"",
+    ""latitude"": """",
+    ""longitude"": """",
+    ""functionRole"": ""SA"",
+    ""systemRole"": null,
+    ""effectiveDateSaved"": ""2024-03-11""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateEmployee.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteEmployee,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""employee"",
+module_2: ""delete""
+}",,,"{
+    ""code"": ""RASHTEST14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteEmployee.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getUser,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""user"",
+module_2: ""get""
+}",,,"{
+    ""code"": ""dec1313""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-01-24"",
+                                ""ineffectiveDate"": null,
+                                ""status"": true,
+                                ""createdBy"": ""harshdeep.s@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-01-24T15:09:32.988"",
+                                ""modifiedBy"": ""harshdeep.s@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-06-05T18:52:18.825"",
+                                ""approvalRemarks"": ""IMPORT"",
+                                ""approvalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-06-05T18:52:18.825"",
+                                ""recordId"": ""a16ed4f2-cc95-475f-a876-38d8c87d8401"",
+                                ""executionAttribute"": null,
+                                ""userId"": ""dec1313"",
+                                ""userName"": ""MUKESH"",
+                                ""userType"": true,
+                                ""domainName"": ""it"",
+                                ""domain"": """",
+                                ""employeeId"": ""TEST1223"",
+                                ""password"": ""MFku5+oFKRYwWcxZDBlwassh2dX0wYN9fCKamkSmytqKE+Fiv/qYmy3bNqQwUZj9V+oyLyDT2x3G\r\nCHxV88MgVw=="",
+                                ""authentication"": """",
+                                ""role"": ""DOPS"",
+                                ""systemRole"": ""Test12"",
+                                ""supervisorId"": """",
+                                ""designation"": """",
+                                ""homeLocation"": ""MH"",
+                                ""parentEntity"": """",
+                                ""hierarchyId"": """",
+                                ""mobileNumber"": ""7535988912"",
+                                ""emailId"": ""abc@gmail.com"",
+                                ""sortSequence"": 100,
+                                ""accessLevel"": """",
+                                ""blockFlag"": """",
+                                ""passwordUpdateTimestamp"": null,
+                                ""dob"": null,
+                                ""passwordChangeFlag"": false,
+                                ""passwordResponseMessage"": """",
+                                ""orgId"": """",
+                                ""appId"": """",
+                                ""loginId"": """",
+                                ""superAdmin"": true,
+                                ""makerChecker"": null,
+                                ""attributes"": ""[{\""key\"":\""usermaster\"",\""value\"":\""\""},{\""key\"":\""mobile number\"",\""value\"":\""\""}]"",
+                                ""mpin"": ""y5LTYYmA1RGG3x+n+t2qFzgyCNBHx3X6eKVN56XDWFsF9P9ivc8ZTT+6F4eLSapbPS7L3s38R4O5\r\n8qNjN/b8MA=="",
+                                ""deviceId"": """",
+                                ""mpinStatus"": """",
+                                ""makerCheckerRequired"": false
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getUser.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createUser,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""user"",
+module_2: ""create""
+}",,,"{
+    ""userId"": ""RashmiTest14"",
+    ""userName"": ""rtrivedi"",
+    ""domainName"": """",
+    ""status"": true,
+    ""userType"": true,
+    ""designation"": """",
+    ""emailId"": ""rtrivedi@getmail.com"",
+    ""dob"": """",
+    ""description"": """",
+    ""mobileNumber"": ""7535988913"",
+    ""employeeId"": ""009"",
+    ""supervisorId"": """",
+    ""role"": """",
+    ""homeLocation"": """",
+    ""superAdmin"": """",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-04-08T10:43:45.308Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": """",
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": """",
+    ""effectiveDate"": ""2024-04-08"",
+    ""ineffectiveDate"": ""2034-04-12"",
+    ""recordId"": """",
+    ""functionRole"": null,
+    ""password"": ""test"",
+    ""mpin"": ""test"",
+    ""deviceId"": ""test"",
+    ""mpinStatus"": """",
+    ""effectiveDateSaved"": ""2024-04-08"",
+    ""attributes"": ""[{\""key\"":\""usermaster\"",\""value\"":\""\""},{\""key\"":\""mobile number\"",\""value\"":\""\""},{\""key\"":\""Designation\"",\""value\"":\""\""}]"",
+    ""systemRole"": ""CURATOR100""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createUser.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateUser,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""user"",
+module_2: ""update""
+}",,,"{
+    ""effectiveDate"": ""2024-03-12"",
+    ""ineffectiveDate"": ""2034-03-12"",
+    ""status"": true,
+    ""createdBy"": ""aman.aggarwal@decimal.co.in"",
+    ""createdTimestamp"": ""2024-03-12T16:14:30.159"",
+    ""modifiedBy"": ""aman.aggarwal@decimal.co.in"",
+    ""modifiedTimestamp"": ""2024-03-12T16:14:30.161"",
+    ""approvalRemarks"": ""By Super Admin"",
+    ""approvalBy"": ""aman.aggarwal@decimal.co.in"",
+    ""approvalStatus"": ""APPROVED"",
+    ""finalApprovalBy"": ""aman.aggarwal@decimal.co.in"",
+    ""approvalTimestamp"": ""2024-03-12T16:14:30.157"",
+    ""recordId"": ""6d55b8ff-adea-4441-8927-259558803102"",
+    ""executionAttribute"": null,
+    ""userId"": ""RashmiTest14"",
+    ""userName"": ""ytdy"",
+    ""userType"": true,
+    ""domainName"": """",
+    ""domain"": null,
+    ""employeeId"": """",
+    ""password"": """",
+    ""authentication"": null,
+    ""role"": """",
+    ""systemRole"": ""CURATOR100"",
+    ""supervisorId"": """",
+    ""designation"": """",
+    ""homeLocation"": ""MAIN_MARKET_MBD"",
+    ""parentEntity"": null,
+    ""hierarchyId"": null,
+    ""mobileNumber"": ""7535988912"",
+    ""emailId"": ""sandeep.kumar4@decimal.co.in"",
+    ""sortSequence"": 0,
+    ""accessLevel"": null,
+    ""blockFlag"": null,
+    ""passwordUpdateTimestamp"": null,
+    ""dob"": null,
+    ""passwordChangeFlag"": false,
+    ""passwordResponseMessage"": null,
+    ""orgId"": null,
+    ""appId"": null,
+    ""loginId"": null,
+    ""superAdmin"": false,
+    ""makerChecker"": null,
+    ""attributes"": ""[{\""key\"":\""usermaster\"",\""value\"":\""\""},{\""key\"":\""mobile number\"",\""value\"":\""\""},{\""key\"":\""Designation\"",\""value\"":\""\""}]"",
+    ""mpin"": """",
+    ""deviceId"": """",
+    ""mpinStatus"": """",
+    ""makerCheckerRequired"": false,
+    ""effectiveDateValid"": true,
+    ""effectiveTill"": true,
+    ""effectiveDateSaved"": ""2024-03-12""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateUser.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteUser,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""user"",
+module_2: ""delete""
+}",,,"{
+    ""code"": ""RashmiTest14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteUser.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getSystemRole,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""system-role"",
+module_2: ""get""
+}",,,"{
+    ""code"": ""TESTADMIN""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-08-12"",
+                                ""ineffectiveDate"": ""2034-08-12"",
+                                ""status"": true,
+                                ""createdBy"": ""harshdeep.s@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-08-12T11:26:48.991+05:30"",
+                                ""modifiedBy"": ""harshdeep.s@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-08-12T11:26:48.991+05:30"",
+                                ""approvalRemarks"": ""By Super Admin"",
+                                ""approvalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-08-12T11:26:48.984+05:30"",
+                                ""recordId"": ""c2ecc6fc-251e-441f-9f59-4ea8ca2ee382"",
+                                ""isDelete"": false,
+                                ""attributes"": ""[{\""key\"":\""1\"",\""value\"":\""\""},{\""key\"":\""2\"",\""value\"":\""\""},{\""key\"":\""test\"",\""value\"":\""\""},{\""key\"":\""33\"",\""value\"":\""\""}]"",
+                                ""id"": ""TESTADMIN"",
+                                ""roleName"": ""TESTRT10"",
+                                ""description"": """",
+                                ""appId"": ""ADMIN-PORTAL-BGQIQLMILQ"",
+                                ""orgId"": ""VLIBRARY-LKBBJW41RM""
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getSystemRole.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createSystemRole,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""system-role"",
+module_2: ""create""
+}",,,"{
+    ""id"": ""TESTADMIN14"",
+    ""appId"": ""ADMIN-PORTAL-BGQIQLMILQ"",
+    ""roleName"": ""test12"",
+    ""status"": true,
+    ""description"": """",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-12T10:55:22.743Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": """",
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": """",
+    ""effectiveDate"": ""2024-03-18"",
+    ""ineffectiveDate"": ""2034-03-12"",
+    ""homeLocation"": """",
+    ""attributes"": ""[{\""key\"":\""1\"",\""value\"":\""\""},{\""key\"":\""2\"",\""value\"":\""\""},{\""key\"":\""test\"",\""value\"":\""\""},{\""key\"":\""33\"",\""value\"":\""\""}]"",
+    ""effectiveDateSaved"": ""2024-03-12""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createSystemRole.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateSystemRole,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""system-role"",
+module_2: ""update""
+}",,,"{
+    ""id"": ""TESTADMIN14"",
+    ""appId"": ""ADMIN-PORTAL-BGQIQLMILQ"",
+    ""roleName"": ""test12"",
+    ""status"": true,
+    ""description"": """",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-12T10:55:22.743Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": """",
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": """",
+    ""effectiveDate"": ""2024-03-12"",
+    ""ineffectiveDate"": ""2034-03-12"",
+    ""homeLocation"": """",
+    ""attributes"": ""[{\""key\"":\""1\"",\""value\"":\""\""},{\""key\"":\""2\"",\""value\"":\""\""},{\""key\"":\""test\"",\""value\"":\""\""},{\""key\"":\""33\"",\""value\"":\""\""}]"",
+    ""effectiveDateSaved"": ""2024-03-12""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateSystemRole.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteSystemRole,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""system-role"",
+module_2: ""delete""
+}",,,"{
+    ""code"": ""TESTADMIN14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteSystemRole.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createUserRoleMapping,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""role-user-map"",
+module_2: ""create""
+}",,,"{
+    ""appId"": ""CORE42-37COMPQ9VL"",
+    ""userId"": ""WORKER_07"",
+    ""systemRole"": ""WORKER"",
+    ""status"": false,
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-18T18:53:09.277Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-18"",
+    ""ineffectiveDate"": ""2034-03-12"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""attributes\"",\""value\"":\""\""},{\""key\"":\""Desgination\"",\""value\"":\""\""},{\""key\"":\""44\"",\""value\"":\""\""}]"",
+    ""orgId"": ""VLIBRARY-LKBBJW41RM"",
+    ""effectiveDateSaved"": ""2024-03-12""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createUserRoleMpaaing.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getUserRoleMapping,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""role-user-map"",
+module_2: ""get""
+}",,,"{
+    ""systemRole"": ""WORKER"",
+    ""userId"": ""WORKER_07""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-03-18"",
+                                ""ineffectiveDate"": ""2034-03-12"",
+                                ""status"": false,
+                                ""createdBy"": ""sandeep.kumar@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-03-18T19:03:05.321"",
+                                ""modifiedBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-09-14T19:24:03.829"",
+                                ""approvalRemarks"": ""By Super Admin"",
+                                ""approvalBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-09-14T19:24:03.822"",
+                                ""recordId"": ""77e8830d-378f-4c72-b86f-e2c64994ab2f"",
+                                ""executionAttribute"": null,
+                                ""systemRole"": ""WORKER"",
+                                ""userId"": ""WORKER_07"",
+                                ""appId"": ""CORE42-37COMPQ9VL"",
+                                ""orgId"": ""VLIBRARY-LKBBJW41RM"",
+                                ""attributes"": ""[{\""key\"":\""attributes\"",\""value\"":\""\""},{\""key\"":\""Desgination\"",\""value\"":\""\""},{\""key\"":\""44\"",\""value\"":\""\""}]""
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getUserRoleMpaaing.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateUserRoleMapping,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""role-user-map"",
+module_2: ""update""
+}",,,"{
+    ""appId"": ""CORE42-37COMPQ9VL"",
+    ""userId"": ""WORKER_07"",
+    ""systemRole"": ""WORKER"",
+    ""status"": false,
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-18T18:53:09.277Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-18"",
+    ""ineffectiveDate"": ""2034-03-12"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""attributes\"",\""value\"":\""\""},{\""key\"":\""Desgination\"",\""value\"":\""\""},{\""key\"":\""44\"",\""value\"":\""\""}]"",
+    ""orgId"": ""VLIBRARY-LKBBJW41RM"",
+    ""effectiveDateSaved"": ""2024-03-12""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateUserRoleMpaaing.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteUserRoleMapping,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""role-user-map"",
+module_2: ""delete""
+}",,,"{
+    ""systemRole"": ""WORKER"",
+    ""userId"": ""WORKER_07""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteUserRoleMpaaing.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getProduct,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""prd-mst"",
+module_2: ""get""
+}",,,"{
+    ""code"": ""AC101""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-08-13"",
+                                ""ineffectiveDate"": ""2034-08-13"",
+                                ""status"": true,
+                                ""createdBy"": ""ghulam.mustafa@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-08-13T15:50:38.960+05:30"",
+                                ""modifiedBy"": ""ghulam.mustafa@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-08-13T15:50:38.960+05:30"",
+                                ""approvalRemarks"": ""By Super Admin"",
+                                ""approvalBy"": ""ghulam.mustafa@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""ghulam.mustafa@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-08-13T15:50:38.958+05:30"",
+                                ""recordId"": ""c3cebbc8-9d3e-4bcf-8ff6-2f6d12b80150"",
+                                ""isDelete"": false,
+                                ""attributes"": ""[{\""key\"":\""age\"",\""value\"":\""\""},{\""key\"":\""salary\"",\""value\"":\""\""}]"",
+                                ""code"": ""AC101"",
+                                ""name"": ""ACCOUNT"",
+                                ""description"": ""Short description for ACCOUNT"",
+                                ""sortSeq"": 1,
+                                ""shortName"": null
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getProduct.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createProduct,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""prd-mst"",
+module_2: ""create""
+}",,,"{
+    ""productGrpCode"": ""PP15"",
+    ""code"": ""TTQQAA11"",
+    ""name"": ""ajay singh"",
+    ""status"": true,
+    ""description"": """",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-14T09:47:33.539Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-14"",
+    ""ineffectiveDate"": ""2034-03-14"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""ISSUE\"",\""value\"":\""\""},{\""key\"":\""test product\"",\""value\"":\""\""}]"",
+    ""sortSeq"": ""1"",
+    ""effectiveDateSaved"": ""2024-03-14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createProduct.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateProduct,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""prd-mst"",
+module_2: ""update""
+}",,,"{
+    ""productGrpCode"": ""PP15"",
+    ""code"": ""TTQQAA11"",
+    ""name"": ""ajay singh"",
+    ""status"": true,
+    ""description"": """",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-14T09:47:33.539Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-14"",
+    ""ineffectiveDate"": ""2034-03-14"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""ISSUE\"",\""value\"":\""\""},{\""key\"":\""test product\"",\""value\"":\""\""}]"",
+    ""sortSeq"": ""1"",
+    ""effectiveDateSaved"": ""2024-03-14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateProduct.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteProduct,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""prd-mst"",
+module_2: ""delete""
+}",,,"{
+    ""code"": ""AC101""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteProduct.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getProductVariant,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""variant-mst"",
+module_2: ""get""
+}",,,"{
+    ""code"": ""2002""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-04-29"",
+                                ""ineffectiveDate"": ""2034-04-29"",
+                                ""status"": true,
+                                ""createdBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-04-29T16:12:47.502"",
+                                ""modifiedBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-04-29T16:12:47.502"",
+                                ""approvalRemarks"": ""By Super Admin"",
+                                ""approvalBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-04-29T16:12:47.486"",
+                                ""recordId"": ""31ca414f-fa8b-4f25-845f-27fcf4d31281"",
+                                ""executionAttribute"": null,
+                                ""code"": ""2002"",
+                                ""name"": ""Java"",
+                                ""description"": ""Java Back end tech stack"",
+                                ""sortSeq"": 1,
+                                ""productCode"": ""2001"",
+                                ""productGroupCode"": ""0001"",
+                                ""shortName"": null,
+                                ""attributes"": ""[{\""key\"":\""MARKET\"",\""value\"":\""High Demand\""},{\""key\"":\""TEST\"",\""value\"":\""\""},{\""key\"":\""only for test\"",\""value\"":\""\""}]""
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getProductVariant.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createProductVariant,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""variant-mst"",
+module_2: ""create""
+}",,,"{
+    ""code"": ""RASHMITEST14"",
+    ""name"": ""Test singh ramu"",
+    ""productCode"": ""KPCC811"",
+    ""productGroupCode"": """",
+    ""status"": true,
+    ""description"": """",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-14T10:02:42.126Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-14"",
+    ""ineffectiveDate"": ""2034-03-14"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""MARKET\"",\""value\"":\""\""},{\""key\"":\""TEST\"",\""value\"":\""\""},{\""key\"":\""only for test\"",\""value\"":\""\""}]"",
+    ""sortSeq"": ""1"",
+    ""effectiveDateSaved"": ""2024-03-14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createProductVariant.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateProductVariant,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""variant-mst"",
+module_2: ""update""
+}",,,"{
+    ""code"": ""RASHMITEST14"",
+    ""name"": ""Test singh ramu"",
+    ""productCode"": ""KPCC811"",
+    ""productGroupCode"": """",
+    ""status"": true,
+    ""description"": """",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-14T10:02:42.126Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-14"",
+    ""ineffectiveDate"": ""2034-03-14"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""MARKET\"",\""value\"":\""\""},{\""key\"":\""TEST\"",\""value\"":\""\""},{\""key\"":\""only for test\"",\""value\"":\""\""}]"",
+    ""sortSeq"": ""1"",
+    ""effectiveDateSaved"": ""2024-03-14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateProductVariant.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteProductVariant,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""variant-mst"",
+module_2: ""delete""
+}",,,"{
+    ""code"": ""RASHMITEST14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteProductVariant.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getProductSubVariant,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""prd-sub-vrnt-mst"",
+module_2: ""get""
+}",,,"{
+    ""code"": ""2012""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-04-29"",
+                                ""ineffectiveDate"": ""2034-04-29"",
+                                ""status"": true,
+                                ""createdBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-04-29T16:14:18.593"",
+                                ""modifiedBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-04-29T16:14:18.593"",
+                                ""approvalRemarks"": ""By Super Admin"",
+                                ""approvalBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-04-29T16:14:18.568"",
+                                ""recordId"": ""b8be69a4-f477-480f-a9f2-0cf046fd1659"",
+                                ""executionAttribute"": null,
+                                ""code"": ""2012"",
+                                ""name"": ""Java 8"",
+                                ""description"": ""Java 8 - Java"",
+                                ""sortSeq"": 1,
+                                ""productVariantCode"": ""2002"",
+                                ""attributes"": ""[{\""key\"":\""Test Subvariant\"",\""value\"":\""Java 8.1\""}]""
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getProductSubVariant.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createProductSubVariant,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""prd-sub-vrnt-mst"",
+module_2: ""create""
+}",,,"{
+    ""productVariantCode"": ""2002"",
+    ""code"": ""RASHTST14"",
+    ""name"": ""ajay singh"",
+    ""status"": true,
+    ""description"": """",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-14T10:09:22.845Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-14"",
+    ""ineffectiveDate"": ""2034-03-14"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""Test Subvariant\"",\""value\"":\""\""}]"",
+    ""sortSeq"": ""1"",
+    ""effectiveDateSaved"": ""2024-03-14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createProductSubVariant.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateProductSubVariant,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""prd-sub-vrnt-mst"",
+module_2: ""update""
+}",,,"{
+    ""productVariantCode"": ""2002"",
+    ""code"": ""RASHTST14"",
+    ""name"": ""ajay singh"",
+    ""status"": true,
+    ""description"": """",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-14T10:09:22.845Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-14"",
+    ""ineffectiveDate"": ""2034-03-14"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""Test Subvariant\"",\""value\"":\""\""}]"",
+    ""sortSeq"": ""1"",
+    ""effectiveDateSaved"": ""2024-03-14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateProductSubVariant.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteProductSubVariant,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""prd-sub-vrnt-mst"",
+module_2: ""delete""
+}",,,"{
+    ""code"": ""RASHTST14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteProductSubVariant.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getWorkflow,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""WORKFLOW_API"",
+module: ""workflow_mst"",
+module_2: ""get""
+}",,,"{
+    ""name"": ""RashmiTest""
+}","{
+    ""WORKFLOW_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-09-13"",
+                                ""ineffectiveDate"": null,
+                                ""status"": true,
+                                ""createdBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-09-14T02:15:09.401"",
+                                ""modifiedBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-09-14T02:15:09.401"",
+                                ""approvalRemarks"": ""By Super Admin"",
+                                ""approvalBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-09-14T02:15:09.401"",
+                                ""recordId"": ""95228fdf-218f-4298-a827-1ed114ff11b7"",
+                                ""id"": 249,
+                                ""name"": ""RashmiTest"",
+                                ""description"": ""testing by Rashmi"",
+                                ""purgeDays"": 10,
+                                ""orgId"": null,
+                                ""appId"": null
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getWorkflow.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createWorkflow,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""WORKFLOW_API"",
+module: ""workflow_mst"",
+module_2: ""create""
+}",,,"{
+    ""name"": ""RashmiTest14"",
+    ""description"": ""iStarX"",
+    ""purgeDays"": ""10"",
+    ""workflowId"": null,
+    ""taskCode"": null
+}","{
+    ""WORKFLOW_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-09-14"",
+                                ""ineffectiveDate"": null,
+                                ""status"": true,
+                                ""createdBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-09-14T06:38:24.869+00:00"",
+                                ""modifiedBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-09-14T06:38:24.869+00:00"",
+                                ""approvalRemarks"": ""By Super Admin"",
+                                ""approvalBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""dheeraj.yadav@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-09-14T06:38:24.869+00:00"",
+                                ""recordId"": ""26863b97-7dc8-4295-86f2-c88430ff208e"",
+                                ""id"": 250,
+                                ""name"": ""RashmiTest14"",
+                                ""description"": ""iStarX"",
+                                ""purgeDays"": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createWorkflow.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateWorkflow,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""WORKFLOW_API"",
+module: ""workflow_mst"",
+module_2: ""update""
+}",,,"{
+    ""name"": ""RashmiTest14"",
+    ""description"": ""qw"",
+    ""purgeDays"": ""1"",
+    ""workflowId"": null,
+    ""taskCode"": null
+}","{
+    ""WORKFLOW_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateWorkflow.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteWorkflow,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""WORKFLOW_API"",
+module: ""workflow_mst"",
+module_2: ""delete""
+}",,,"{
+    ""name"": ""RashmiTest14""
+}","{
+    ""WORKFLOW_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Record Deleted Successfully For - RashmiTest14""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteWorkflow.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getLovGroup,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""ov-grp"",
+module_2: ""get""
+}",,,"{
+    ""code"": ""RASHTEST14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-09-14"",
+                                ""ineffectiveDate"": ""2034-09-14"",
+                                ""status"": true,
+                                ""createdBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-09-14T12:23:05.634+05:30"",
+                                ""modifiedBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-09-14T12:23:05.634+05:30"",
+                                ""approvalRemarks"": ""By Super Admin"",
+                                ""approvalBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-09-14T12:23:05.631+05:30"",
+                                ""recordId"": ""32ac2ab3-7cdf-40c0-87ab-d670c72fd210"",
+                                ""isDelete"": false,
+                                ""attributes"": ""[{\""key\"":\""lov\"",\""value\"":\""\""},{\""key\"":\""lov2\"",\""value\"":\""\""},{\""key\"":\""lov3\"",\""value\"":\""\""}]"",
+                                ""code"": ""RASHTEST14"",
+                                ""name"": ""RashmiTesting"",
+                                ""description"": ""Testing data created by Rashmi"",
+                                ""sortSeq"": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getLovGroup.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createLovGroup,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""ov-grp"",
+module_2: ""create""
+}",,,"{
+    ""code"": ""RASHTEST15"",
+    ""name"": ""Rshmi Trivedi testing"",
+    ""description"": ""Test data by Rashmi Trivedi"",
+    ""purgeDays"": ""10"",
+    ""workflowId"": null,
+    ""taskCode"": null,
+    ""effectiveDate"": ""2024-09-14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createLovGroup.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateLovGroup,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""ov-grp"",
+module_2: ""update""
+}",,,"{
+    ""code"": ""RASHTEST15"",
+    ""name"": ""Rshmi Trivedi testing"",
+    ""description"": ""upadted API successful -Test data by Rashmi Trivedi"",
+    ""purgeDays"": ""10"",
+    ""workflowId"": null,
+    ""taskCode"": null,
+    ""effectiveDate"": ""2024-09-14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateLovGroup.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteLovGroup,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""ov-grp"",
+module_2: ""delete""
+}",,,"{
+    ""code"": ""RASHTEST15""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteLovGroup.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getLov,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""lov-mst"",
+module_2: ""get""
+}",,,"{
+    ""code"": ""DOB1""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-03-18"",
+                                ""ineffectiveDate"": ""2034-03-18"",
+                                ""status"": true,
+                                ""createdBy"": ""aman.aggarwal@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-03-18T10:06:34.891"",
+                                ""modifiedBy"": ""harshdeep.s@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-05-31T10:02:46.617"",
+                                ""approvalRemarks"": ""IMPORT"",
+                                ""approvalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-05-31T10:02:46.617"",
+                                ""recordId"": ""ded15fb9-b869-48d4-97ea-6f963e6aeed3"",
+                                ""executionAttribute"": null,
+                                ""code"": ""DOB1"",
+                                ""name"": ""pankaj kumar"",
+                                ""description"": """",
+                                ""lovGroupCode"": ""OCCUPATION"",
+                                ""parentLovCode"": ""STUDENT"",
+                                ""attributes"": ""[{\""key\"":\""123\"",\""value\"":\""\""}]"",
+                                ""sortSeq"": 0,
+                                ""moduleAttributes"": """"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getLov.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createLov,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""lov-mst"",
+module_2: ""create""
+}",,,"{
+    ""lovGroupCode"": ""OCCUPATION"",
+    ""lovType"": """",
+    ""parentLovCode"": ""STUDENT"",
+    ""code"": ""RASHTEST14"",
+    ""name"": ""pankaj kumar"",
+    ""status"": true,
+    ""description"": """",
+    ""isAvailableOnHomepage"": true,
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-18T04:35:49.620Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-18"",
+    ""ineffectiveDate"": ""2034-03-18"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""123\"",\""value\"":\""\""}]"",
+    ""sortSeq"": ""0"",
+    ""effectiveDateSaved"": ""2024-03-18""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createLov.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateLov,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""lov-mst"",
+module_2: ""update""
+}",,,"{
+    ""lovGroupCode"": ""OCCUPATION"",
+    ""lovType"": """",
+    ""parentLovCode"": ""STUDENT"",
+    ""code"": ""RASHTEST14"",
+    ""name"": ""updateAPIpankaj kumar"",
+    ""status"": true,
+    ""description"": """",
+    ""isAvailableOnHomepage"": true,
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-18T04:35:49.620Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-18"",
+    ""ineffectiveDate"": ""2034-03-18"",
+    ""recordId"": """",
+    ""attributes"": ""[{\""key\"":\""123\"",\""value\"":\""\""}]"",
+    ""sortSeq"": ""1"",
+    ""effectiveDateSaved"": ""2024-03-18""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateLov.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteLov,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""lov-mst"",
+module_2: ""delete""
+}",,,"{
+    ""code"": ""RASHTEST14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteLov.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+getLovValue,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""lov-value"",
+module_2: ""get""
+}",,,"{
+    ""lovCode"": ""DOB1"",
+    ""code"": ""DOB1""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User(s) Details Found"",
+                            ""details"": {
+                                ""effectiveDate"": ""2024-03-18"",
+                                ""ineffectiveDate"": ""2034-03-18"",
+                                ""status"": true,
+                                ""createdBy"": ""sandeep.kumar@decimal.co.in"",
+                                ""createdTimestamp"": ""2024-03-28T13:23:56.897"",
+                                ""modifiedBy"": ""harshdeep.s@decimal.co.in"",
+                                ""modifiedTimestamp"": ""2024-05-31T10:03:23.282"",
+                                ""approvalRemarks"": ""IMPORT"",
+                                ""approvalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalStatus"": ""APPROVED"",
+                                ""finalApprovalBy"": ""harshdeep.s@decimal.co.in"",
+                                ""approvalTimestamp"": ""2024-05-31T10:03:23.282"",
+                                ""recordId"": ""64f8aa38-6e9d-4c01-9f4c-9b4dbfad3d3a"",
+                                ""executionAttribute"": null,
+                                ""code"": ""DOB1"",
+                                ""lovValue"": ""DATEOB"",
+                                ""parentCodeL1"": ""LOVVALUE"",
+                                ""parentCodeL2"": ""Test value 01"",
+                                ""parentCodeL3"": ""Student"",
+                                ""sortSeq"": 1,
+                                ""attributes"": ""[{\""key\"":\""attribute_1\"",\""value\"":\""\""},{\""key\"":\""attribute_2\"",\""value\"":\""\""},{\""key\"":\""age\"",\""value\"":\""\""}]"",
+                                ""lovCode"": ""DOB1"",
+                                ""moduleAttributesValue"": """"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",getLovValue.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+createLovValue,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""lov-value"",
+module_2: ""create""
+}",,,"{
+    ""parentCodeL1"": ""LOVVALUE"",
+    ""parentCodeL2"": ""Test value 01"",
+    ""parentCodeL3"": ""Student"",
+    ""code"": ""RASHTEST14"",
+    ""lovValue"": ""DATEOB"",
+    ""lovCode"": ""DOB1"",
+    ""attributes"": ""[{\""key\"":\""attribute_1\"",\""value\"":\""\""},{\""key\"":\""attribute_2\"",\""value\"":\""\""},{\""key\"":\""age\"",\""value\"":\""\""}]"",
+    ""status"": true,
+    ""description"": """",
+    ""sortSeq"": ""1"",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-18T04:40:13.531Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-18"",
+    ""ineffectiveDate"": ""2034-03-18"",
+    ""recordId"": """",
+    ""effectiveDateSaved"": ""2024-03-18""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",createtLovValue.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+updateLovValue,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""lov-value"",
+module_2: ""update""
+}",,,"{
+    ""parentCodeL1"": ""LOVVALUE"",
+    ""parentCodeL2"": ""Test value 01"",
+    ""parentCodeL3"": ""Student"",
+    ""code"": ""RASHTEST14"",
+    ""lovValue"": ""DATEOBRashmitest"",
+    ""lovCode"": ""DOB1"",
+    ""attributes"": ""[{\""key\"":\""attribute_1\"",\""value\"":\""\""},{\""key\"":\""attribute_2\"",\""value\"":\""\""},{\""key\"":\""age\"",\""value\"":\""\""}]"",
+    ""status"": true,
+    ""description"": """",
+    ""sortSeq"": ""1"",
+    ""createdBy"": """",
+    ""createdTimestamp"": ""2024-03-18T04:40:13.531Z"",
+    ""modifiedBy"": """",
+    ""modifiedTimestamp"": null,
+    ""approvalBy"": """",
+    ""approvalRemarks"": """",
+    ""approvalStatus"": """",
+    ""approvalTimestamp"": null,
+    ""effectiveDate"": ""2024-03-18"",
+    ""ineffectiveDate"": ""2034-03-18"",
+    ""recordId"": """",
+    ""effectiveDateSaved"": ""2024-03-18""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""Request Processed Successfully""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",updateLovValue.spec.ts,Decimal_API,"""@regression_apiDecimal"""
+deleteLovValue,POST,https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor,200,"{
+clientsecret: ""64398bad-6858-42f3-bd72-7441197cb83c"",
+requestid: ""requestId01"",
+appId: ""ADMIN-PORTAL-BGQIQLMILQ"",
+orgId: ""VLIBRARY-LKBBJW41RM"",
+servicename: ""ADMIN_PORTAL_API"",
+module: ""lov-value"",
+module_2: ""delete""
+}",,,"{
+    ""lovCode"": ""DOB1"",
+    ""code"": ""RASHTEST14""
+}","{
+    ""ADMIN_PORTAL_API"": {
+        ""records"": [
+            {
+                ""primary_key"": """",
+                ""data"": [
+                    {
+                        ""status"": ""success"",
+                        ""success"": {
+                            ""code"": ""200"",
+                            ""message"": ""User Details Deleted""
+                        }
+                    }
+                ]
+            }
+        ],
+        ""responseHandledBy"": ""MOBILE APP"",
+        ""isSuccessRuleValidated"": true
+    }
+}",deleteLovValue.spec.ts,Decimal_API,"""@regression_apiDecimal"""

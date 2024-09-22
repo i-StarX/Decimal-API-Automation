@@ -1,0 +1,39 @@
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+"TC_AP_003 Verify that ""Function Role"" module Page is working",Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_003.spec.ts,"""@regression_web"", ""@organization_management"", ""@function_role"", ""@TC_AP_003""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Verify Function Role button is clickable,verify - enable,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function Role""]"
+,Click Function Role button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function Role""]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+"TC_AP_007 Verify the ""Function Role"" sub-module redirection",Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_007.spec.ts,"""@regression_web"", ""@organization_management"", ""@function_role"", ""@TC_AP_007""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function Role button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function Role""]"
+,Verify function role page is loaded,verify - url,/org-management/function-role,,,,,,
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+"TC_AP_035 Verify the ""Function Role"" page details",Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_010.spec.ts,"""@regression_web"", ""@organization_management"", ""@function_role"", ""@TC_AP_010""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function Role button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Verify Filter and Search section is visible,verify - visible,,,,,locator,,//app-function-role//app-model-search
+,Verify Add Function button is visible,verify - visible,,,,,role,button,Add Function Role
+,Verify Add Attribute button is visible,verify - visible,,,,,role,button,Add Attributes
+,Verify Approval/Rejection button is visible,verify - visible,,,,,role,button,Approval/Rejection
+,Verify Function list is visible,verify - visible,,,,,locator,,"//mat-card/mat-card-subtitle[text()=""Function Role List""]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+TC_AP_036 Verify the Function Role List option,Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_011.spec.ts,"""@regression_web"", ""@organization_management"", ""@function_role"", ""@TC_AP_011""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Function""]"
+,Verify Function Code column is visible,verify - visible,,,,,role,columnheader,Function Code
+,Verify Function Name column is visible,verify - visible,,,,,role,columnheader,Function Name
+,Verify Status column is visible,verify - visible,,,,,role,columnheader,Status
+,Verify Action column is visible,verify - visible,,,,,role,columnheader,Action

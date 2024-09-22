@@ -1,0 +1,111 @@
+import { test, expect, } from '@playwright/test';
+
+test('updateEmployee', { tag: ["@regression_apiDecimal"] }, async ({ request }) => {
+
+    
+    await request.fetch(`https://sandbox.vahanacloud.com/router/engine/v1/gatewayProcessor`, {
+        method: "POST",
+        headers: {
+clientsecret: "64398bad-6858-42f3-bd72-7441197cb83c",
+requestid: "requestId01",
+appId: "ADMIN-PORTAL-BGQIQLMILQ",
+orgId: "VLIBRARY-LKBBJW41RM",
+servicename: "ADMIN_PORTAL_API",
+module: "employee",
+module_2: "update"
+},
+        data: {
+    "effectiveDate": "2024-03-11",
+    "ineffectiveDate": "2034-03-11",
+    "status": true,
+    "createdBy": "aman.aggarwal@decimal.co.in",
+    "createdTimestamp": "2024-03-11T15:46:17.362+05:30",
+    "modifiedBy": "aman.aggarwal@decimal.co.in",
+    "modifiedTimestamp": "2024-03-11T15:46:17.362+05:30",
+    "approvalRemarks": "By Super Admin",
+    "approvalBy": "aman.aggarwal@decimal.co.in",
+    "approvalStatus": "APPROVED",
+    "finalApprovalBy": "aman.aggarwal@decimal.co.in",
+    "approvalTimestamp": "2024-03-11T15:46:17.351+05:30",
+    "recordId": "d626cfdb-41e0-4839-a164-3670a6d1a4a3",
+    "isDelete": false,
+    "attributes": "[{\"key\":\"CA_CODE\",\"value\":\"\"},{\"key\":\"CA-LOCATION\",\"value\":\"\"},{\"key\":\"A\",\"value\":\"\"},{\"key\":\"test\",\"value\":\"\"},{\"key\":\"CLIENT_LOCATION\",\"value\":\"\"}]",
+    "udfVal1": "",
+    "udfLbl1": "",
+    "udfVal2": "",
+    "udfLbl2": "",
+    "udfVal3": "",
+    "udfLbl3": "",
+    "udfVal4": "",
+    "udfLbl4": "",
+    "udfVal5": "",
+    "udfLbl5": "",
+    "udfVal6": "",
+    "udfLbl6": "",
+    "udfVal7": "",
+    "udfLbl7": "",
+    "udfVal8": "",
+    "udfLbl8": "",
+    "udfVal9": "",
+    "udfLbl9": "",
+    "udfVal10": "",
+    "udfLbl10": "",
+    "code": "ABC231",
+    "company": "ABC Company ashdbhsabdhasbdhba",
+    "personId": "",
+    "salutation": "MR",
+    "firstName": "MUKESHt",
+    "middleName": "mukesh",
+    "lastName": "KUMAR",
+    "officeEmail": "test6757657@mail.com",
+    "personalEmail": "sandeep.kumar@decimal.co.in",
+    "gender": "MALE",
+    "dob": null,
+    "maritalStatus": "SINGLE",
+    "dateOfJoining": "2024-03-01",
+    "supervisorEmpId": "",
+    "subCompany": "",
+    "fatherHusbandName": "",
+    "division": "",
+    "functionCode": "Annie69",
+    "designationName": "TEST",
+    "payrollId": "",
+    "designationLabelId": "",
+    "roleCode": "",
+    "locationCode": "",
+    "employeeVerificationDate": null,
+    "lobCode": "",
+    "lob": "",
+    "category": "",
+    "domainLoginId": "",
+    "lastWorkingDate": null,
+    "mobileNumber": "7535988912",
+    "officeLandline": "",
+    "mobileOffice": "",
+    "source": "",
+    "description": "",
+    "refSysEmpCode": "",
+    "addressLine1": "yesty qsgdyuagsdh asuvduhas dj",
+    "addressLine2": "check sadasdasdasdsadasdiljbiu",
+    "addressLine3": "empty sadbasbdhbashdbashdbhsab",
+    "city": "NEW",
+    "state": "DELHI",
+    "pincode": "110055",
+    "country": "I",
+    "latitude": "",
+    "longitude": "",
+    "functionRole": "SA",
+    "systemRole": null,
+    "effectiveDateSaved": "2024-03-11"
+},
+    }).then((apiResponse) => {
+        expect(apiResponse.ok()).toBeTruthy();
+        expect(apiResponse.status().toString()).toBe('200');
+        
+        apiResponse.body().then(body => {
+            let expected = '{    "ADMIN_PORTAL_API": {        "records": [            {                "primary_key": "",                "data": [                    {                        "status": "success",                        "success": {                            "code": "200",                            "message": "Request Processed Successfully"                        }                    }                ]            }        ],        "responseHandledBy": "MOBILE APP",        "isSuccessRuleValidated": true    }}';
+            expect(body.toString().replace(/ +/g, "")).toEqual(expected.replace(/ +/g, ""));
+        });
+    });
+
+});

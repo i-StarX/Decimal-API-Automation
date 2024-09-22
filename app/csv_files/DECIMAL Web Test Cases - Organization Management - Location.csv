@@ -1,0 +1,16 @@
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+"TC_AP_004 Verify the ""Location"" sub-module Page is working",Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_004.spec.ts,"""@regression_web"", ""@organization_management"", ""@location"", ""@TC_AP_004""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Verify Location button is clickable,verify - enable,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Location""]"
+,Click Function button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Location""]"
+TC Reference,Test case description,Action,Test Data,Test Spec File Name,Tag,Parent Folder Name,Locator Type,Role (used if locator type is role),Element Locator 
+"TC_AP_008 Verify the ""Location"" sub-module redirection",Invoke URL,goto,https://preprod-web.vahanacloud.com/admin-portal-test/#/login,TC_AP_008.spec.ts,"""@regression_web"", ""@organization_management"", ""@location"", ""@TC_AP_008""",DECIMAL_WEB,,,
+,Enter user name,fill,rashmi.trivedi@istar-x.com,,,,locator,,"[formcontrolname=""email""]"
+,Click Get OTP button,click,,,,,role,button,Get OTP
+,Enter OTP,fill,123456,,,,locator,,"[formcontrolname=""otp""]"
+,Click Submit button,click,,,,,role,button,Submit
+,Click Location button,click,,,,,locator,,"//*[text()=""Organization Management""]/ancestor::*[contains(@class, ""section-one"")]//*[text()=""Location""]"
+,Verify Location page is loaded,verify - url,/org-management/location,,,,,,
